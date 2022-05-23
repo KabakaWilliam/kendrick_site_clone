@@ -1,6 +1,9 @@
 # Oklama (Kendrick Site) Clone
 
-In the leadup to Kendrick's new album, I decided to recreate the website in order to find out how it works.
+In the leadup to Kendrick's new album, I decided to recreate the website https://oklama.com/ in order to find out how it works.
+
+## Live Demo
+https://kendrick-site-clone.vercel.app/
 
 ## Current look
 
