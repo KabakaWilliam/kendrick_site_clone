@@ -1,4 +1,4 @@
-# Kendrick Lamar Site Clone
+# Oklama (Kendrick Site) Clone
 
 In the leadup to Kendrick's new album, I decided to recreate the website in order to find out how it works.
 
