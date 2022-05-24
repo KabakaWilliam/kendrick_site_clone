@@ -3,6 +3,7 @@
 In the leadup to Kendrick's new album, I decided to recreate the website https://oklama.com/ in order to find out how it works.
 
 ## Live Demo
+
 https://kendrick-site-clone.vercel.app/
 
 ## Current look
@@ -15,8 +16,9 @@ https://kendrick-site-clone.vercel.app/
 
 ### ToDo
 
-- [ ] Make elements draggable
-- [ ] Make components for all code bloacks
+- [x] Make elements draggable
+- [ ] Add other elements
+- [ ] Make components for all code blocks
 - [ ] Implement next/link for files
 - [ ] Add missing file art
 - [ ] Improve design of pixel art

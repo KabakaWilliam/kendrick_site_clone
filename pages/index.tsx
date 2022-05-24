@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Draggable from "react-draggable";
 
 const Home: NextPage = () => {
   return (
@@ -15,18 +16,23 @@ const Home: NextPage = () => {
       <main className="absolute inset-0 overflow-hidden select-none z-10">
         <div className="absolute top-0 left-0 bottom-[90px] right-[90px]  border-red-500">
           {/* file container */}
-          <div className="absolute bottom-[50vh] left-[50vw] text-sm flex flex-col items-center justify-center pointer-events-none w-[90px] hover:border-2 hover:border-dotted border-black">
-            <Image
-              src={"/file.png"}
-              width={64}
-              height={64}
-              className=" pointer-events-auto"
-              style={{ imageRendering: "pixelated" }}
-            />
-            <span className="pointer-events-auto text-[13px] text-center bg-white">
-              nu thoughts
-            </span>
-          </div>
+          <Draggable handle="#handle">
+            <div
+              id="handle"
+              className="absolute  bottom-[50vh] left-[50vw] text-sm flex flex-col items-center justify-center pointer-events-none w-[90px] hover:border-2 hover:border-dotted border-black"
+            >
+              <Image
+                src={"/file.png"}
+                width={64}
+                height={64}
+                className=" pointer-events-auto"
+                style={{ imageRendering: "pixelated" }}
+              />
+              <span className="pointer-events-auto text-[13px] text-center bg-white">
+                nu thoughts
+              </span>
+            </div>
+          </Draggable>
         </div>
       </main>
 
