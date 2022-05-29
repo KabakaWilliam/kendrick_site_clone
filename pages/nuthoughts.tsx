@@ -1,10 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useRouter } from "next/router";
+
 import React from "react";
 
 const nuthoughts = () => {
-  const router = useRouter();
   return (
     <div className="bg-black w-screen h-max md:h-screen text-white font-mono text-[10px]">
       <Head>
@@ -13,12 +12,12 @@ const nuthoughts = () => {
         <link rel="icon" href="/file.png" />
       </Head>
       <div className="flex items-end  justify-start w-screen h-[55px] mb-5">
-        <div
-          onClick={() => router.push("/")}
+        <a
+          href="/"
           className="cursor-pointer md:p-0 md:w-[3%] w-[5%]  h-[100%] flex items-end justify-end  md:justify-center text-[14px]"
         >
           ←
-        </div>
+        </a>
         <div className="px-5 md:p-0 md:w-[8%]  h-[100%] flex items-end justify-center">
           august 20 2021
         </div>
