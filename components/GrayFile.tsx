@@ -7,7 +7,7 @@ const GrayFile = () => {
     <Draggable handle="#handle">
       <div
         id="handle"
-        className={`absolute z-30  bottom-[80vh] left-[50%] text-sm flex flex-col items-center justify-center pointer-events-auto w-[90px] h-[90px] hover:border-2 hover:border-dotted border-black`}
+        className={`absolute z-30  bottom-[70vh] left-[40%] text-sm flex flex-col items-center justify-center pointer-events-auto w-[90px] h-[90px] hover:border-2 hover:border-dotted border-black`}
       >
         <Image
           src={"/grayFile.png"}
