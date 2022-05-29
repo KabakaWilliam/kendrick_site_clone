@@ -12,10 +12,7 @@ const nuthoughts = () => {
       </Head>
       <div className="flex items-end  justify-start w-screen h-[55px] mb-5">
         <Link href="/">
-          <a
-            href="/"
-            className="cursor-pointer md:p-0 md:w-[3%] w-[5%]  h-[100%] flex items-end justify-end  md:justify-center text-[14px]"
-          >
+          <a className="cursor-pointer md:p-0 md:w-[3%] w-[5%]  h-[100%] flex items-end justify-end  md:justify-center text-[14px]">
             ←
           </a>
         </Link>
