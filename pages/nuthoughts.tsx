@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-
-import React from "react";
+import Link from "next/link";
 
 const nuthoughts = () => {
   return (
@@ -12,12 +11,14 @@ const nuthoughts = () => {
         <link rel="icon" href="/file.png" />
       </Head>
       <div className="flex items-end  justify-start w-screen h-[55px] mb-5">
-        <a
-          href="/"
-          className="cursor-pointer md:p-0 md:w-[3%] w-[5%]  h-[100%] flex items-end justify-end  md:justify-center text-[14px]"
-        >
-          ←
-        </a>
+        <Link href="/">
+          <a
+            href="/"
+            className="cursor-pointer md:p-0 md:w-[3%] w-[5%]  h-[100%] flex items-end justify-end  md:justify-center text-[14px]"
+          >
+            ←
+          </a>
+        </Link>
         <div className="px-5 md:p-0 md:w-[8%]  h-[100%] flex items-end justify-center">
           august 20 2021
         </div>
