@@ -1,12 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://use.typekit.net/cxe6slk.css");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "JetBrains Mono", monospace;
+  /* font-family: "sofia-pro"; */
 }
 
 a {
